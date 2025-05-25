@@ -1,0 +1,8 @@
+<suite name="Test Suite one">
+    <test name="End to End">
+        <classes>
+            <class name="TC_002_End_To_End"/>
+        </classes>
+    </test>
+
+</suite>

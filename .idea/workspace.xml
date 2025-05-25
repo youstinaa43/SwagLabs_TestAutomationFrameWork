@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="70b9c592-3c58-462a-aaae-fbcae72d5183" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/actions/BrowserActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/actions/ElementActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pom/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pom/CheckoutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pom/FinishPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pom/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pom/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pom/OpenMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pom/OverviewPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utility/ReaderFromLoginProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utility/ReaderFromUtilityProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TC_001_TestLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TC_002_End_To_End.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TC_003_VerifyTotalPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TC_004_VerifyProductsNameInCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TC_005_VerifyFilteration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/login_credentials.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/utility.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2vDyqJmykSjYG0cOl7Bk2skeI1l" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.F:/Java/Projects/Saucedemo/testng.xml.executor": "Run",
+    "TestNG.TC_001_TestLogin.executor": "Debug",
+    "TestNG.TC_001_TestLogin.loginWithDifferentUsers.executor": "Run",
+    "TestNG.TC_002_End_To_End.successfulCheckoutFlowForAValidUser.executor": "Run",
+    "TestNG.TC_003_VerifyTotalPrice.executor": "Run",
+    "TestNG.TC_004_VerifyProductsNameInCart.successfulCheckoutFlowForAValidUser.executor": "Run",
+    "TestNG.TC_005_VerifyFilteration.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/Java/Projects/Saucedemo/src/test/resources",
+    "onboarding.tips.debug.path": "F:/Java/Projects/Saucedemo/src/main/java/framework/Main.java"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Java\Projects\Saucedemo\src\test\resources" />
+      <recent name="F:\Java\Projects\Saucedemo\src\test" />
+      <recent name="F:\Java\Projects\Saucedemo\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Java\Projects\Saucedemo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="utility" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TC_001_TestLogin">
+    <configuration name="F:/Java/Projects/Saucedemo/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Saucedemo" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_001_TestLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Saucedemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TC_001_TestLogin" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_003_VerifyTotalPrice" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Saucedemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TC_003_VerifyTotalPrice" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_004_VerifyProductsNameInCart.successfulCheckoutFlowForAValidUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Saucedemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TC_004_VerifyProductsNameInCart" />
+      <option name="METHOD_NAME" value="successfulCheckoutFlowForAValidUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_005_VerifyFilteration" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Saucedemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TC_005_VerifyFilteration" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TC_001_TestLogin" />
+        <item itemvalue="TestNG.F:/Java/Projects/Saucedemo/testng.xml" />
+        <item itemvalue="TestNG.TC_005_VerifyFilteration" />
+        <item itemvalue="TestNG.TC_004_VerifyProductsNameInCart.successfulCheckoutFlowForAValidUser" />
+        <item itemvalue="TestNG.TC_003_VerifyTotalPrice" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70b9c592-3c58-462a-aaae-fbcae72d5183" name="Changes" comment="" />
+      <created>1743694132411</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743694132411</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/framework/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pom/HomePage.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
