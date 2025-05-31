@@ -1,0 +1,119 @@
+[
+  {
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "expectedResult": "success",
+    "products": [
+      {
+        "name": "Sauce Labs Backpack",
+        "action": "add",
+        "price": 29.99
+      },
+      {
+        "name": "Sauce Labs Bike Light",
+        "action": "remove",
+        "price": 9.99
+      },
+      {
+        "name": "Sauce Labs Bolt T-Shirt",
+        "action": "add",
+        "price": 15.99
+      },
+      {
+        "name": "Sauce Labs Fleece Jacket",
+        "action": "add",
+        "price": 49.99
+      },
+      {
+        "name": "Sauce Labs Onesie",
+        "action": "add",
+        "price": 7.99
+      },
+      {
+        "name": "Test.allTheThings() T-Shirt (Red)",
+        "action": "add",
+        "price": 15.99
+      }
+    ]
+  },
+  {
+    "username": "locked_out_user",
+    "password": "secret_sauce",
+    "expectedResult": "failure",
+    "errorMessage": "Epic sadface: Sorry, this user has been locked out."
+  },
+  {
+    "username": "problem_user",
+    "password": "secret_sauce",
+    "expectedResult": "partial_success",
+    "products": [
+      {
+        "name": "Sauce Labs Backpack",
+        "action": "add",
+        "price": 29.99
+      },
+      {
+        "name": "Sauce Labs Bike Light",
+        "action": "remove",
+        "price": 9.99
+      },
+      {
+        "name": "Sauce Labs Bolt T-Shirt",
+        "action": "add",
+        "price": 15.99
+      },
+      {
+        "name": "Sauce Labs Fleece Jacket",
+        "action": "add",
+        "price": 49.99
+      },
+      {
+        "name": "Sauce Labs Onesie",
+        "action": "add",
+        "price": 7.99
+      },
+      {
+        "name": "Test.allTheThings() T-Shirt (Red)",
+        "action": "add",
+        "price": 15.99
+      }
+    ]
+  },
+  {
+    "username": "performance_glitch_user",
+    "password": "secret_sauce",
+    "expectedResult": "partial_success",
+    "products": [
+      {
+        "name": "Sauce Labs Backpack",
+        "action": "add",
+        "price": 29.99
+      },
+      {
+        "name": "Sauce Labs Bike Light",
+        "action": "remove",
+        "price": 9.99
+      },
+      {
+        "name": "Sauce Labs Bolt T-Shirt",
+        "action": "add",
+        "price": 15.99
+      },
+      {
+        "name": "Sauce Labs Fleece Jacket",
+        "action": "add",
+        "price": 49.99
+      },
+      {
+        "name": "Sauce Labs Onesie",
+        "action": "add",
+        "price": 7.99
+      },
+      {
+        "name": "Test.allTheThings() T-Shirt (Red)",
+        "action": "add",
+        "price": 15.99
+      }
+    ]
+  }
+]

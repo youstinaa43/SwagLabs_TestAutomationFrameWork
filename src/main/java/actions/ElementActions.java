@@ -26,13 +26,6 @@ public class ElementActions {
             }catch (Exception e){
                 throw new RuntimeException("Element not found or not clickable: " + selector);
             }
-//            try {
-//                new Actions(driver).moveToElement(element).click().perform();
-//                return;
-//            } catch (Exception e) {
-//                // If all strategies fail
-//                throw new RuntimeException("All click attempts failed for: " + selector, e);
-//            }
         }
         catch (Exception e){
             throw new RuntimeException("Element not clickable "+selector,e);

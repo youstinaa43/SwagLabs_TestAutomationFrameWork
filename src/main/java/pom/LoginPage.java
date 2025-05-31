@@ -66,15 +66,14 @@ public class LoginPage {
             proper.store(writer,"SauceDemo Login Credentials");
         }
     }
-    public void loginSuccessfully(String username,String password) {
+    public HomePage loginSuccessfully(String username,String password) {
         elementActions.sendText(userNameID, ElementActions.Locators.id,username);
         elementActions.sendText(passwordID, ElementActions.Locators.id,password);
         elementActions.clickOnElement(loginID, ElementActions.Locators.id);
-    }
-    public HomePage acceptAlertAfterLogin(){
-        //elementActions.acceptAlert();
         return new HomePage();
+
     }
+
 
 
 

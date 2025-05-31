@@ -1,13 +1,9 @@
-import org.testng.Assert;
 import org.testng.annotations.Test;
-import pom.CartPage;
 import pom.HomePage;
 import utility.ReaderFromLoginProperty;
 import utility.ReaderFromUtilityProperty;
 
-import java.util.List;
-
-public class TC_005_VerifyFilteration extends BaseTests{
+public class TC_005_HomePage extends BaseTests{
     @Test
     public void verifyFilteration() throws InterruptedException {
         String userName= ReaderFromLoginProperty.getvalidUser();
@@ -17,8 +13,7 @@ public class TC_005_VerifyFilteration extends BaseTests{
         String zcode= ReaderFromUtilityProperty.getZipCode();
         String product1=ReaderFromUtilityProperty.getProductName("1");
         String product2=ReaderFromUtilityProperty.getProductName("4");
-        loginPage.loginSuccessfully(userName,password);
-        HomePage homePage=loginPage.acceptAlertAfterLogin();
+        HomePage homePage=loginPage.loginSuccessfully(userName,password);
         homePage.clickOnAddToCart(product1);
         homePage.clickOnAddToCart(product2);
         homePage.selectFromDropdown("index","2");

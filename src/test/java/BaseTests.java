@@ -14,7 +14,7 @@ public class BaseTests {
         BrowserActions.initTheBrowser(BrowserActions.Browsers.firefox);
         loginPage=new LoginPage();
         BrowserActions.navigateTo("https://www.saucedemo.com/v1/");
-        loginPage.saveCredentialsInProperty("F:\\Java\\Projects\\Saucedemo\\src\\test\\resources\\login_credentials.properties");
+        loginPage.saveCredentialsInProperty("F:\\Java\\Projects\\Saucedemo\\src\\test\\resources\\data.properties");
     }
     @AfterClass
     public void tearDown(){

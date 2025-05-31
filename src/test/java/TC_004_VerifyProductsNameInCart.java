@@ -19,8 +19,7 @@ public class TC_004_VerifyProductsNameInCart extends BaseTests{
         String zcode= ReaderFromUtilityProperty.getZipCode();
         String product1=ReaderFromUtilityProperty.getProductName("1");
         String product2=ReaderFromUtilityProperty.getProductName("4");
-        loginPage.loginSuccessfully(userName,password);
-        HomePage homePage=loginPage.acceptAlertAfterLogin();
+        HomePage homePage=loginPage.loginSuccessfully(userName,password);
         homePage.clickOnAddToCart(product1);
         homePage.clickOnAddToCart(product2);
         CartPage cartPage=homePage.clickOnCart();

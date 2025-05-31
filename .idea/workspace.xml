@@ -5,32 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70b9c592-3c58-462a-aaae-fbcae72d5183" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/actions/BrowserActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/actions/ElementActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pom/CartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pom/CheckoutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pom/FinishPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pom/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pom/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pom/OpenMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pom/OverviewPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utility/ReaderFromLoginProperty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utility/ReaderFromUtilityProperty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC_001_TestLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC_002_End_To_End.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC_003_VerifyTotalPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC_004_VerifyProductsNameInCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC_005_VerifyFilteration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/login_credentials.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/utility.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/ElementActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/ElementActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pom/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pom/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pom/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pom/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pom/OpenMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pom/OpenMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TC_001_TestLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TC_001_TestLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TC_004_VerifyProductsNameInCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TC_004_VerifyProductsNameInCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TC_005_VerifyFilteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TC_005_HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/login_credentials.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,23 +44,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.F:/Java/Projects/Saucedemo/testng.xml.executor": "Run",
-    "TestNG.TC_001_TestLogin.executor": "Debug",
-    "TestNG.TC_001_TestLogin.loginWithDifferentUsers.executor": "Run",
-    "TestNG.TC_002_End_To_End.successfulCheckoutFlowForAValidUser.executor": "Run",
-    "TestNG.TC_003_VerifyTotalPrice.executor": "Run",
-    "TestNG.TC_004_VerifyProductsNameInCart.successfulCheckoutFlowForAValidUser.executor": "Run",
-    "TestNG.TC_005_VerifyFilteration.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/Java/Projects/Saucedemo/src/test/resources",
-    "onboarding.tips.debug.path": "F:/Java/Projects/Saucedemo/src/main/java/framework/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.F:/Java/Projects/Saucedemo/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TC_001_TestLogin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TC_001_TestLogin.loginWithDifferentUsers.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TC_002_End_To_End.successfulCheckoutFlowForAValidUser.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TC_003_VerifyTotalPrice.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TC_004_VerifyProductsNameInCart.successfulCheckoutFlowForAValidUser.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TC_005_VerifyFilteration.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Java/Projects/Saucedemo/src/test/resources&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;F:/Java/Projects/Saucedemo/src/main/java/framework/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Java\Projects\Saucedemo\src\test\resources" />
@@ -89,7 +77,14 @@
       <recent name="utility" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TC_001_TestLogin">
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="Saucedemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="F:/Java/Projects/Saucedemo/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Saucedemo" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -111,17 +106,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC_003_VerifyTotalPrice" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Saucedemo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TC_003_VerifyTotalPrice" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TC_004_VerifyProductsNameInCart.successfulCheckoutFlowForAValidUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Saucedemo" />
       <option name="PACKAGE_NAME" value="" />
@@ -134,10 +118,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC_005_VerifyFilteration" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC_005_HomePage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Saucedemo" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TC_005_VerifyFilteration" />
+      <option name="MAIN_CLASS_NAME" value="TC_005_HomePage" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -147,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="TestNG.TC_001_TestLogin" />
         <item itemvalue="TestNG.F:/Java/Projects/Saucedemo/testng.xml" />
-        <item itemvalue="TestNG.TC_005_VerifyFilteration" />
+        <item itemvalue="TestNG.TC_005_HomePage" />
         <item itemvalue="TestNG.TC_004_VerifyProductsNameInCart.successfulCheckoutFlowForAValidUser" />
-        <item itemvalue="TestNG.TC_003_VerifyTotalPrice" />
       </list>
     </recent_temporary>
   </component>
@@ -173,11 +157,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/framework/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pom/HomePage.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

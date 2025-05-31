@@ -1,3 +1,4 @@
+import actions.BrowserActions;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pom.HomePage;
@@ -6,12 +7,11 @@ import utility.ReaderFromLoginProperty;
 
 public class TC_001_TestLogin extends BaseTests{
     @Test(dataProvider = "validLoginData")
-    public void loginWithValidDifferentUsers(String username,String password){
-        loginPage.loginSuccessfully(username, password);
-        HomePage homePage=loginPage.acceptAlertAfterLogin();
-        OpenMenu openMenu=homePage.clickOnOpenMenu();
-        openMenu.clickOnLogOut();
+    public void loginWithDifferentUsers(String username,String password){
+        HomePage homePage=loginPage.loginSuccessfully(username, password);
+        BrowserActions.navigateBack();
     }
+
     @DataProvider(name = "validLoginData")
     public Object[][] loginData(){
         String[] usernames= ReaderFromLoginProperty.getUsers();
